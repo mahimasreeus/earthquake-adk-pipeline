@@ -1,0 +1,33 @@
+# --- Secrets: never commit these ---
+.env
+.env.*
+!.env.example
+*.pem
+*-key.json
+*_key.json
+service-account*.json
+credentials*.json
+gcp-*.json
+
+# --- Runtime output ---
+output/
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# --- ADK local state (adk web/run may create these) ---
+.adk/
+*.db
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Local-only working files ---
+DA_makeup_claude_prompt.md
