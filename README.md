@@ -208,6 +208,20 @@ python main.py --backend gcs
 gcloud storage ls -r gs://YOUR_BUCKET/          # or: gsutil ls -r gs://YOUR_BUCKET/
 ```
 
+**Verified run** (2026-11-17, project `da-makeup-pipeline`, bucket in
+`us-central1` with public access prevention enforced): `python main.py
+--backend gcs` exited 0 with quality status `pass` (1,925 raw → 1,923 clean
+events), and `gsutil ls -r` listed all 11 objects:
+
+```
+gs://da-makeup-pipeline-eq/raw/earthquakes/run_date=2026-11-17/run_id=20261117T162829Z/earthquakes.geojson
+gs://da-makeup-pipeline-eq/processed/earthquakes/run_date=2026-11-17/run_id=20261117T162829Z/
+    agg_band_depth.csv  agg_daily.csv  agg_regions.csv  events_clean.csv  events_clean.parquet
+    kpis.json  quality_report.json  top_events.csv
+gs://da-makeup-pipeline-eq/reports/earthquakes/run_date=2026-11-17/run_id=20261117T162829Z/index.html
+gs://da-makeup-pipeline-eq/reports/earthquakes/latest/index.html
+```
+
 Instead of user ADC you can use a service account with only
 `roles/storage.objectAdmin` on the bucket and point
 `GOOGLE_APPLICATION_CREDENTIALS` at its key file — **stored outside the repo**.
