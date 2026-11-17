@@ -1,0 +1,343 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "title": "test fixture",
+  "count": 13
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "ak1",
+   "properties": {
+    "mag": 3.1,
+    "place": "45 km NW of Anchorage, Alaska",
+    "time": 1793502900000,
+    "updated": 1793502900000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 310,
+    "magType": "ml",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -150.5,
+     61.5,
+     35.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ci1",
+   "properties": {
+    "mag": 2.7,
+    "place": "5 km N of Ridgecrest, CA",
+    "time": 1793522400000,
+    "updated": 1793522400000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 270,
+    "magType": "ml",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.6,
+     35.7,
+     8.2
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "us1",
+   "properties": {
+    "mag": 6.4,
+    "place": "120 km S of Tonga Islands, Tonga",
+    "time": 1793534400000,
+    "updated": 1793534400000,
+    "felt": null,
+    "alert": "yellow",
+    "status": "reviewed",
+    "tsunami": 1,
+    "sig": 640,
+    "magType": "mb",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -175.0,
+     -21.0,
+     410.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "us2",
+   "properties": {
+    "mag": 5.2,
+    "place": "Fiji region",
+    "time": 1793581500000,
+    "updated": 1793581500000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 520,
+    "magType": "mb",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     178.0,
+     -18.0,
+     550.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "us3",
+   "properties": {
+    "mag": 4.4,
+    "place": "30 km E of Ensenada, B.C., MX",
+    "time": 1793601000000,
+    "updated": 1793601000000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 440,
+    "magType": "mb",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us3"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -116.3,
+     31.9,
+     12.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "us4",
+   "properties": {
+    "mag": 4.8,
+    "place": "south of the Fiji Islands",
+    "time": 1793610600000,
+    "updated": 1793610600000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 480,
+    "magType": "mb",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us4"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     179.0,
+     -24.0,
+     120.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "hv1",
+   "properties": {
+    "mag": 2.9,
+    "place": "10 km SSW of Volcano, Hawaii",
+    "time": 1793631600000,
+    "updated": 1793631600000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 290,
+    "magType": "ml",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -155.3,
+     19.3,
+     -1.2
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ak2",
+   "properties": {
+    "mag": 3.6,
+    "place": "80 km SE of Kodiak, Alaska",
+    "time": 1793737200000,
+    "updated": 1793737200000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 360,
+    "magType": "ml",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -151.8,
+     57.2,
+     75.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "qb1",
+   "properties": {
+    "mag": 2.6,
+    "place": "3 km W of Somewhere, WA",
+    "time": 1793556000000,
+    "updated": 1793556000000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 260,
+    "magType": "ml",
+    "type": "quarry blast",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/qb1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -120.0,
+     47.0,
+     0.1
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ex1",
+   "properties": {
+    "mag": 2.8,
+    "place": "Nevada Test Site, NV",
+    "time": 1793642400000,
+    "updated": 1793642400000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 280,
+    "magType": "ml",
+    "type": "explosion",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ex1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -116.0,
+     37.1,
+     0.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "nm1",
+   "properties": {
+    "mag": null,
+    "place": "50 km N of Somewhere, Chile",
+    "time": 1793671200000,
+    "updated": 1793671200000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 0,
+    "magType": "ml",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.0,
+     -30.0,
+     40.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "nc1",
+   "properties": {
+    "mag": 3.3,
+    "place": "Unknown coordinates",
+    "time": 1793678400000,
+    "updated": 1793678400000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 330,
+    "magType": "ml",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ak1",
+   "properties": {
+    "mag": 3.1,
+    "place": "45 km NW of Anchorage, Alaska",
+    "time": 1793502900000,
+    "updated": 1793502900000,
+    "felt": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 310,
+    "magType": "ml",
+    "type": "earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -150.5,
+     61.5,
+     35.0
+    ]
+   }
+  }
+ ]
+}
