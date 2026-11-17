@@ -16,18 +16,18 @@ python main.py --days 30 --min-magnitude 2.5
 
 ```mermaid
 flowchart LR
-    U([User request<br/>"last 14 days, M4+"]) --> O
+    U(["User request<br/>last 14 days, M4+"]) --> O
 
-    subgraph O[PipelineOrchestrator · SequentialAgent]
+    subgraph O["PipelineOrchestrator · SequentialAgent"]
         direction LR
-        I[IngestionAgent<br/><i>LlmAgent</i>] --> P[ProcessingAgent<br/><i>LlmAgent</i>]
-        P --> S[StorageAgent<br/><i>LlmAgent</i>] --> R[ReportingAgent<br/><i>LlmAgent</i>]
+        I["IngestionAgent<br/><i>LlmAgent</i>"] --> P["ProcessingAgent<br/><i>LlmAgent</i>"]
+        P --> S["StorageAgent<br/><i>LlmAgent</i>"] --> R["ReportingAgent<br/><i>LlmAgent</i>"]
     end
 
-    I -. fetch_earthquake_data .-> API[(USGS GeoJSON API)]
-    P -. clean / aggregate / quality .-> W[(Run working dir<br/>output/runs/run_id)]
-    S -. upload_raw / upload_processed .-> B[(GCS · S3 · local<br/>raw/ processed/)]
-    R -. generate + upload report .-> H[reports/.../index.html]
+    I -. fetch_earthquake_data .-> API[("USGS GeoJSON API")]
+    P -. clean / aggregate / quality .-> W[("Run working dir<br/>output/runs/run_id")]
+    S -. upload_raw / upload_processed .-> B[("GCS · S3 · local<br/>raw/ processed/")]
+    R -. generate + upload report .-> H["reports/.../index.html"]
     H --> B
 ```
 
